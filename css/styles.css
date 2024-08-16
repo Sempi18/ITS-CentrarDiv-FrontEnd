@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  background-color: #333;
+}
+
+.padre {
+  display: flex;
+  width: 60vh;
+  height: 60vh;
+  border: 2px solid #02fe1f;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: #034748;
+}
+
+.hijo {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 8px;
+  background-color: #fe0202;
+}
